@@ -24,6 +24,57 @@
 
 </details>
 
+## Settingan Config
+<details>
+
+<summary>Detail Configure</summary>
+
+## Konfigurasi
+### 1
+```jsx
+auto eth0
+iface eth0 inet dhcp
+
+auto eth1
+iface eth1 inet static
+	address 192.244.1.1
+	netmask 255.255.255.0
+
+auto eth2
+iface eth2 inet static
+	address 192.244.2.1
+	netmask 255.255.255.0
+
+auto eth3
+iface eth3 inet static
+	address 192.244.3.1
+	netmask 255.255.255.0
+
+auto eth4
+iface eth4 inet static
+	address 192.244.4.1
+	netmask 255.255.255.0
+
+up iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE -s 192.244.0.0/16
+```
+
+### 2
+```jsx
+auto eth0
+iface eth0 inet static
+	address 192.244.1.2
+	netmask 255.255.255.0
+	gateway 192.244.1.1
+```
+### 3
+```jsx
+auto eth0
+iface eth0 inet static
+	address 192.244.1.3
+	netmask 255.255.255.0
+	gateway 192.244.1.1
+```
+</details>
 
 
 
