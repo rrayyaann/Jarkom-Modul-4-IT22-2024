@@ -12,6 +12,9 @@
 |  Muhamad Arrayyan  | GNS3 | CIDR |
 |  Fadlillah Cantika Sari Hermawan |  CPT | VLSM |
 
+## Prefix IP 
+Kelompok kami memiliki prefix IP `192.244`
+
 <details>
 
 <summary>Gambar Topologi</summary>
@@ -25,9 +28,7 @@
 </details>
 
 ## Rute
-<img width="1500" alt="rute" src="https://github.com/user-attachments/assets/d172bb96-9aec-44f1-880c-05072b78b140">
-
-
+<img width="1500" alt="rute" src="https://github.com/user-attachments/assets/4cc8629f-788b-4320-ad79-7abe6ebe2f0e">
 
 ## Settingan Config
 <details>
