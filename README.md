@@ -28,7 +28,7 @@ Kelompok kami memiliki prefix IP `192.244`
 </details>
 
 ## Rute
-<img width="1500" alt="rute" src="https://github.com/user-attachments/assets/4cc8629f-788b-4320-ad79-7abe6ebe2f0e">
+<img width="1500" alt="rute" src="https://github.com/user-attachments/assets/ede397be-e6fd-457a-9751-5265339e1988">
 
 ## Settingan Config
 <details>
