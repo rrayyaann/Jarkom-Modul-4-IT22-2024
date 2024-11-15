@@ -15,20 +15,79 @@
 ## Prefix IP 
 Kelompok kami memiliki prefix IP `192.244`
 
+
+# GNS-CIDR
 <details>
 
-<summary>Gambar Topologi</summary>
+<summary>Gambar Topologi GNS-CIDR</summary>
 
 ## CIDR Topologi @ GNS3 
 <img width="1500" alt="topo-gns" src="https://github.com/user-attachments/assets/5739fa93-2403-4279-952a-49fcd23f6b7c">
 
-## VLSM Topologi @ CPT
-<img width="1500" alt="topo-cpt" src="https://github.com/user-attachments/assets/e9ac9975-039c-4074-a082-67893d9d9164">
-
 </details>
 
-## Rute
-<img width="1500" alt="rute" src="https://github.com/user-attachments/assets/ede397be-e6fd-457a-9751-5265339e1988">
+## Penggabungan Subnet 
+### `Rute Subnet`
+<img width="1500" alt="rute" src="https://github.com/user-attachments/assets/3e0dd9d8-eec8-49b4-b44a-b8a0111c8bcb">
+
+#### Subneting
+<img width="1500" alt="SUBNETING" src="https://github.com/user-attachments/assets/a079680f-6f43-4427-9b8a-15596134f4ec">
+
+### `Penggabungan 1`
+<img width="1500" alt="SUB B" src="https://github.com/user-attachments/assets/6313150e-2265-4a4f-8734-8512a8c10154">
+
+#### Tabel 1
+<img width="1500" alt="rute" src="https://github.com/user-attachments/assets/41bdc393-954e-4030-a1c2-e8f5912b4bba">
+
+### `Penggabungan 2`
+<img width="1500" alt="SUB C" src="https://github.com/user-attachments/assets/5fa15230-6150-4ea5-97f3-36a680bd1975">
+
+#### Tabel 2
+<img width="1500" alt="rute" src="https://github.com/user-attachments/assets/ce75ee31-4762-4e19-83da-025c6808dff4">
+
+### `Penggabungan 3`
+<img width="1500" alt="SUB D" src="https://github.com/user-attachments/assets/e4242d32-91f7-4aea-a276-cc9e50b7e298">
+
+#### Tabel 3
+<img width="1500" alt="rute" src="https://github.com/user-attachments/assets/3968fc65-ed8f-4c4a-86fa-3f3574989951">
+
+### `Penggabungan 4`
+<img width="1500" alt="SUB E" src="https://github.com/user-attachments/assets/6a555eba-ec6a-4333-997b-fb15f75ae827">
+
+#### Tabel 4
+<img width="1500" alt="rute" src="https://github.com/user-attachments/assets/91ccc8d2-42ff-4f86-a667-82798599d1dc">
+
+### `Penggabungan 5`
+<img width="1500" alt="SUB F" src="https://github.com/user-attachments/assets/245efa47-36d3-4096-873d-c1dea4ce2102">
+
+#### Tabel 5
+<img width="1500" alt="SUB F" src="https://github.com/user-attachments/assets/8f152193-db4f-46a4-a54a-254dbc538adc">
+
+### `Penggabungan 6`
+<img width="1500" alt="SUB G" src="https://github.com/user-attachments/assets/318c0111-e5d9-44c5-8f1b-338d7d4fea6f">
+
+#### Tabel 6
+<img width="1500" alt="rute" src="https://github.com/user-attachments/assets/39031e85-5222-44aa-b5e8-905e145c24a5">
+
+### `Penggabungan 7`
+<img width="1500" alt="SUB H" src="https://github.com/user-attachments/assets/2f52b43e-594b-4832-97fc-19dc5439441c">
+
+#### Tabel 7
+<img width="1500" alt="rute" src="https://github.com/user-attachments/assets/1a39ca9b-9cd6-4602-a440-46ddeee931e3">
+
+### `Penggabungan 8`
+<img width="1500" alt="SUB I" src="https://github.com/user-attachments/assets/491146b3-070f-44db-9ecf-5df1ce22d325">
+
+#### Tabel 8
+<img width="1500" alt="rute" src="https://github.com/user-attachments/assets/60d08579-00ca-46ca-81b5-f19c8c7c64b8">
+
+### `Penggabungan 9`
+<img width="1500" alt="SUB J" src="https://github.com/user-attachments/assets/d803b93d-d983-49b8-a1e8-a24f8aa35aa7">
+
+#### Tabel 9
+<img width="1500" alt="rute" src="https://github.com/user-attachments/assets/1e43d3c4-a251-453e-a9b6-9d3aa66d1249">
+
+Didapatkan netmask akhir pada I1 adalah `/15`
 
 ## Settingan Config
 <details>
@@ -81,6 +140,17 @@ iface eth0 inet static
 	gateway 192.244.1.1
 ```
 </details>
+
+## CPT-VLSM
+<details>
+
+<summary>Gambar Topologi CPT-VLSM</summary>
+
+## VLSM Topologi @ CPT
+<img width="1500" alt="topo-cpt" src="https://github.com/user-attachments/assets/e9ac9975-039c-4074-a082-67893d9d9164">
+
+</details>
+
 
 
 
