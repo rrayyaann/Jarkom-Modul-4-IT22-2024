@@ -15,6 +15,8 @@
 ## Prefix IP 
 Kelompok kami memiliki prefix IP `192.244`
 
+# Spreadsheet
+https://docs.google.com/spreadsheets/d/1nslt1sHwc9l-T5B9iu9ZCbg4ardvPgQ_4LDYq8eaeOc/edit?usp=sharing
 
 # GNS-CIDR
 <details>
@@ -88,6 +90,38 @@ Kelompok kami memiliki prefix IP `192.244`
 <img width="1500" alt="rute" src="https://github.com/user-attachments/assets/1e43d3c4-a251-453e-a9b6-9d3aa66d1249">
 
 Didapatkan netmask akhir pada I1 adalah `/15`
+
+## Pembagian IP CIDR
+
+
+## Tree CIDR 
+<img width="1500" alt="rute" src="https://github.com/user-attachments/assets/37924367-14ca-4c2c-a03d-a8200e4dc7f7">
+
+## Routing
+Lakukan konfigurasi berikut pada GNS3, 
+#### Aura
+```
+auto eth0
+iface eth0 inet dhcp
+
+#A20 Aura-Denken
+auto eth1
+iface eth1 inet static
+	address 10.67.1.1
+	netmask 255.255.255.252
+
+#A9 Aura-Eisen
+auto eth2
+iface eth2 inet static
+	address 10.65.128.1
+	netmask 255.255.255.252
+
+#A1 Aura-Frieren
+auto eth3
+iface eth3 inet static
+	address 10.66.128.1
+	netmask 255.255.255.252
+```
 
 ## Settingan Config
 <details>
