@@ -99,28 +99,11 @@ Didapatkan netmask akhir pada I1 adalah `/15`
 
 ## Routing
 Lakukan konfigurasi berikut pada GNS3, 
-#### Aura
+#### Hololive
 ```
-auto eth0
-iface eth0 inet dhcp
 
-#A20 Aura-Denken
-auto eth1
-iface eth1 inet static
-	address 10.67.1.1
-	netmask 255.255.255.252
 
-#A9 Aura-Eisen
-auto eth2
-iface eth2 inet static
-	address 10.65.128.1
-	netmask 255.255.255.252
 
-#A1 Aura-Frieren
-auto eth3
-iface eth3 inet static
-	address 10.66.128.1
-	netmask 255.255.255.252
 ```
 
 ## Settingan Config
