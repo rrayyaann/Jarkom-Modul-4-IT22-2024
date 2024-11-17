@@ -16,7 +16,7 @@
 Kelompok kami memiliki prefix IP `192.244`
 
 # Spreadsheet
-https://docs.google.com/spreadsheets/d/1nslt1sHwc9l-T5B9iu9ZCbg4ardvPgQ_4LDYq8eaeOc/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/1I0JeKBu676l78l9ndJAvOM8RIORIdB6g9E8O-eWfgJg/edit?usp=sharing
 
 # GNS-CIDR
 <details>
@@ -89,13 +89,13 @@ https://docs.google.com/spreadsheets/d/1nslt1sHwc9l-T5B9iu9ZCbg4ardvPgQ_4LDYq8ea
 #### Tabel 9
 <img width="1500" alt="rute" src="https://github.com/user-attachments/assets/1e43d3c4-a251-453e-a9b6-9d3aa66d1249">
 
-Didapatkan netmask akhir pada I1 adalah `/15`
+#### Didapatkan netmask akhir pada J1 adalah `/15`
 
 ## Pembagian IP CIDR
-
+<img width="1500" alt="Pembagian IP - CIDR" src="https://github.com/user-attachments/assets/804b7df1-2aba-45f9-886a-38b5757917af">
 
 ## Tree CIDR 
-<img width="1500" alt="rute" src="https://github.com/user-attachments/assets/37924367-14ca-4c2c-a03d-a8200e4dc7f7">
+<img width="1500" alt="IT22 Tree CIDR" src="https://github.com/user-attachments/assets/1a1304cb-1c13-472a-a795-cf50989b4d3f">
 
 ## Routing
 Lakukan konfigurasi berikut pada GNS3, 
