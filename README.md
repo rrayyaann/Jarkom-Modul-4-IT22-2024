@@ -28,6 +28,18 @@ https://docs.google.com/spreadsheets/d/1I0JeKBu676l78l9ndJAvOM8RIORIdB6g9E8O-eWf
 
 </details>
 
+# GNS-CIDR
+<details>
+
+<summary>Dokumentasi CIDR</summary>
+![image](https://github.com/user-attachments/assets/5cc996c5-9cfc-4d16-8f38-496798a0b322)
+
+
+## CIDR Topologi @ GNS3 
+<img width="1500" alt="topo-gns" src="https://github.com/user-attachments/assets/5739fa93-2403-4279-952a-49fcd23f6b7c">
+
+</details>
+
 ## Penggabungan Subnet 
 ### `Rute Subnet`
 <img width="1500" alt="rute" src="https://github.com/user-attachments/assets/3e0dd9d8-eec8-49b4-b44a-b8a0111c8bcb">
