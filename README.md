@@ -113,25 +113,19 @@ https://docs.google.com/spreadsheets/d/1I0JeKBu676l78l9ndJAvOM8RIORIdB6g9E8O-eWf
 Lakukan konfigurasi berikut pada GNS3, 
 <img width="1500" alt="IT22 Tree CIDR" src="https://github.com/user-attachments/assets/b2f97321-5e2c-4ce8-bb33-85fca830a6e3">
 
-#### Hololive
-```
-
-
-
-```
 
 ## Settingan Config
 <details>
 
 <summary>Detail Configure</summary>
 
-## Konfigurasi Kiri
-## Konfigurasi Bawah
-## Konfigurasi Kanan
+## Konfigurasi Pusat
 ### Hololive (Gateway)
 ```jsx
 
 ```
+
+## Konfigurasi Kiri
 
 ### Holo-EN (Gateway)
 ```jsx
@@ -145,12 +139,7 @@ Lakukan konfigurasi berikut pada GNS3,
 
 ### Gura_Ame_Ina (Client)
 ```jsx
-#A17
-auto eth0
-iface eth0 inet static
-    address 10.76.64.2
-    netmask 255.255.254.0
-    gateway 10.76.64.1
+
 ```
 
 ### Kiara_Calli (Client)
@@ -165,12 +154,7 @@ iface eth0 inet static
 
 ### FuwaMoco (Client)
 ```jsx
-#A22
-auto eth0
-iface eth0 inet static
-    address 10.76.16.2
-    netmask 255.255.255.224
-    gateway 10.76.16.1
+
 ```
 
 ### Shiori_Nerissa (Client)
@@ -208,6 +192,7 @@ iface eth0 inet static
 
 ```
 
+## Konfigurasi Kanan
 ### Holo-ID (Gateway)
 ```
 
@@ -273,9 +258,10 @@ iface eth0 inet static
 
 ```
 
+## Konfigurasi Bawah
 ### Holo-JP (Gateway)
 ```jsx
-#A8
+
 
 ```
 
