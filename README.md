@@ -122,6 +122,23 @@ Lakukan konfigurasi berikut pada GNS3,
 ## Konfigurasi Pusat
 ### Hololive (Gateway)
 ```jsx
+#A1
+auto eth1
+iface eth1 inet static
+    address 192.245.16.1
+    netmask 255.255.255.252
+
+#A9
+auto eth2
+iface eth2 inet static
+    address 192.244.160.1
+    netmask 255.255.255.252
+
+#A16
+auto eth3
+iface eth3 inet static
+    address 192.244.64.1
+    netmask 255.255.255.252
 
 ```
 
@@ -129,132 +146,364 @@ Lakukan konfigurasi berikut pada GNS3,
 
 ### Holo-EN (Gateway)
 ```jsx
+#A1
+auto eth0
+iface eth0 inet static
+    address 192.245.16.2
+    netmask 255.255.255.252
+    gateway 192.245.16.1
+
+#A2
+auto eth1
+iface eth1 inet static
+    address 192.245.4.1
+    netmask 255.255.255.252
+
+#A7
+auto eth2
+iface eth2 inet static
+    address 192.245.8.33
+    netmask 255.255.255.252
 
 ```
 
 ### Holo-Myth (Gateway)
 ```jsx
+#A2
+auto eth0
+iface eth0 inet static
+    address 192.245.4.2
+    netmask 255.255.255.252
+    gateway 192.245.4.1
+
+#A3
+auto eth1
+iface eth1 inet static
+    address 192.245.0.1
+    netmask 255.255.254.0
+
+
+#A4
+auto eth2
+iface eth2 inet static
+    address 192.245.2.129
+    netmask 255.255.255.248
 
 ```
 
 ### Gura_Ame_Ina (Client)
 ```jsx
+#A3
+auto eth0
+iface eth0 inet static
+    address 192.245.0.3
+    netmask 255.255.254.0
+    gateway 192.245.0.1
 
 ```
 
 ### Kiara_Calli (Client)
 ```jsx
+#A3
+auto eth0
+iface eth0 inet static
+    address 192.245.0.2 
+    netmask 255.255.254.0
+    gateway 192.245.0.1
 
 ```
 
 ### Holo Advent (Gateway)
 ```jsx
+#A7
+auto eth0
+iface eth0 inet static
+    address 192.245.8.34
+    netmask 255.255.255.252
+    gateway 192.245.8.33
+
+#A8
+auto eth1
+iface eth1 inet static
+    address 192.245.8.1
+    netmask 255.255.255.224
 
 ```
 
 ### FuwaMoco (Client)
 ```jsx
+#A8
+auto eth0
+iface eth0 inet static
+    address 192.245.8.2
+    netmask 255.255.255.224
+    gateway 192.245.8.1
 
 ```
 
 ### Shiori_Nerissa (Client)
 ```jsx
+#A8
+auto eth1
+iface eth1 inet static
+    address 192.245.8.3
+    netmask 255.255.255.224
+    gateway 192.245.8.1
 
 ```
 
 ### Biboo (Client)
 ```jsx
+#A8
+auto eth2
+iface eth2 inet static
+    address 192.245.8.4
+    netmask 255.255.255.224
+    gateway 192.245.8.1
 
 ```
 
 ### Project-Hope (Gateway)
 ```jsx
+#A4
+auto eth0
+iface eth0 inet static
+    address 192.245.2.130
+    netmask 255.255.255.248
+    gateway 192.245.2.129
+
+#A5
+auto eth1
+iface eth1 inet static
+    address 192.245.2.65
+    netmask 255.255.255.248
 
 ```
 
 ### Irys (Client)
 ```jsx
+#A5
+auto eth0
+iface eth0 inet static
+    address 192.245.2.66
+    netmask 255.255.255.248
+    gateway 192.245.2.65
 
 ```
 
 ### Holo-Council (Gateway)
 ```jsx
+#A4
+auto eth0
+iface eth0 inet static
+    address 192.245.2.131
+    netmask 255.255.255.248
+    gateway 192.245.2.129
+
+#A6
+auto eth1
+iface eth1 inet static
+    address 192.245.2.1
+    netmask 255.255.255.192
 
 ```
 
 ### Kronii_Mumei (Client)
 ```jsx
+#A6
+auto eth0
+iface eth0 inet static
+    address 192.245.2.2
+    netmask 255.255.255.192
+    gateway 192.245.2.1
 
 ```
 
 ### Bae_Fauna (Client)
 ```jsx
+#A6
+auto eth0
+iface eth0 inet static
+    address 192.245.2.3
+    netmask 255.255.255.192
+    gateway 192.245.2.1
 
 ```
 
 ## Konfigurasi Kanan
 ### Holo-ID (Gateway)
 ```
+#A9
+auto eth0
+iface eth0 inet static
+    address 192.244.160.2
+    netmask 255.255.255.252
+
+#A10
+auto eth1
+iface eth1 inet static
+    address 192.244.132.1
+    netmask 255.255.255.252
+
+#A12
+auto eth2
+iface eth2 inet static
+    address 192.244.136.65
+    netmask 255.255.255.252
+
+#A14
+auto eth3
+iface eth3 inet static
+    address 192.244.146.1
+    netmask 255.255.255.252
 
 ```
 
 ### AREA15 (Gateway)
 ```
+#A10
+auto eth0
+iface eth0 inet static
+    address 192.244.132.2
+    netmask 255.255.255.252
+    gateway 192.244.132.1
+
+#A11
+auto eth1
+iface eth1 inet static
+    address 192.244.128.1
+    netmask 255.255.252.0
 
 ```
 
 ### lofi (Client)
 ```jsx
+#A11
+auto eth0
+iface eth0 inet static
+    address 192.244.128.4
+    netmask 255.255.252.0
+    gateway 192.244.128.1
 
 ```
 
 ### Moona (Client)
 ```jsx
+#A11
+auto eth0
+iface eth0 inet static
+    address 192.244.128.3
+    netmask 255.255.252.0
+    gateway 192.244.128.1
 
 ```
 
 ### Risu (Client)
 ```jsx
+#A11
+auto eth0
+iface eth0 inet static
+    address 192.244.128.2
+    netmask 255.255.252.0
+    gateway 192.244.128.1
 
 ```
 
 ### holoro (Gateway)
 ```jsx
+#A12
+auto eth0
+iface eth0 inet static
+    address 192.244.136.66
+    netmask 255.255.255.252
+    gateway 192.244.136.65
+
+#A13
+auto eth1
+iface eth1 inet static
+    address 192.244.136.1
+    netmask 255.255.255.192
 
 ```
 
 ### Ollie (Client)
 ```jsx
-
+#A13
+auto eth0
+iface eth0 inet static
+    address 192.244.136.2
+    netmask 255.255.252.192
+    gateway 192.244.136.1
 ```
 
 ### Anya (Client)
 ```jsx
+#A13
+auto eth0
+iface eth0 inet static
+    address 192.244.136.3
+    netmask 255.255.252.192
+    gateway 192.244.136.1
 
 ```
 
 ### Reine (Client)
 ```jsx
-
+#A13
+auto eth0
+iface eth0 inet static
+    address 192.244.136.4
+    netmask 255.255.255.192
+    gateway 192.244.136.1
 ```
 
 ### holoh3ro (Gateway)
 ```jsx
+#A14
+auto eth0
+iface eth0 inet static
+    address 192.244.146.2
+    netmask 255.255.255.252
+    gateway 192.244.146.1
+
+#A15
+auto eth1
+iface eth1 inet static
+    address 192.244.144.1
+    netmask 255.255.254.0
 
 ```
 
 ### Zeta (Client)
 ```jsx
+#A15
+auto eth0
+iface eth0 inet static
+    address 192.244.144.2
+    netmask 255.255.254.0
+    gateway 192.244.144.1
 
 ```
 
 ### Kaela (Client)
 ```jsx
+#A15
+auto eth0
+iface eth0 inet static
+    address 192.244.144.3
+    netmask 255.255.254.0
+    gateway 192.244.144.1
 
 ```
 
 ### Kobo (Client)
 ```jsx
+#A15
+auto eth0
+iface eth0 inet static
+    address 192.244.144.4
+    netmask 255.255.254.0
+    gateway 192.244.144.1
 
 ```
 
