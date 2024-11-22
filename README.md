@@ -510,80 +510,204 @@ iface eth0 inet static
 ## Konfigurasi Bawah
 ### Holo-JP (Gateway)
 ```jsx
+#A16
+auto eth0
+iface eth0 inet static
+    address 192.244.64.2
+    netmask 255.255.255.252
 
+#A17
+auto eth1
+iface eth1 inet static
+    address 192.244.16.1
+    netmask 255.255.255.252
 
 ```
 
 ### DEV_IS (Gateway)
 ```jsx
+#A17
+auto eth0
+iface eth0 inet static
+    address 192.244.16.3
+    netmask 255.255.255.252
+    gateway 192.244.16.1
+
+#A18
+auto eth1
+iface eth1 inet static
+    address 192.244.32.1
+    netmask 255.255.255.240
 
 ```
 
 ### Ririka_Raden (Client)
 ```jsx
+#A18
+auto eth0
+iface eth0 inet static
+    address 192.244.32.2
+    netmask 255.255.255.240
+    gateway 192.244.32.1
 
 ```
 
 ### Ao (Client)
 ```jsx
+#A18
+auto eth0
+iface eth0 inet static
+    address 192.244.32.3
+    netmask 255.255.255.240
+    gateway 192.244.32.1
 
 ```
 
 ### Hajime_Kanade (Client)
 ```jsx
+#A18
+auto eth0
+iface eth0 inet static
+    address 192.244.32.4
+    netmask 255.255.255.240
+    gateway 192.244.32.1
 
 ```
 
 ### GEN:0 (Gateway)
 ```jsx
+#A17
+auto eth0
+iface eth0 inet static
+    address 192.244.16.2
+    netmask 255.255.255.248
+    gateway 192.244.16.1
+
+#A19
+auto eth1
+iface eth1 inet static
+    address 192.244.0.1
+    netmask 255.255.248.0
 
 ```
 
 ### MiComet (Client)
 ```jsx
+#A19
+auto eth0
+iface eth0 inet static
+    address 192.244.0.2
+    netmask 255.255.248.0
+    gateway 192.244.0.1
 
 ```
 
 ### Sora_Robo_AZKi (Client)
 ```jsx
+#A19
+auto eth0
+iface eth0 inet static
+    address 192.244.0.3
+    netmask 255.255.248.0
+    gateway 192.244.0.1
 
 ```
 
 ### GEN:1 (Gateway)
 ```jsx
+#A19
+auto eth0
+iface eth0 inet static
+    address 192.244.0.4
+    netmask 255.255.248.0
+    gateway 
+
+#A20
+auto eth1
+iface eth1 inet static
+    address 192.244.8.1
+    netmask 255.255.254.0
+
+#A21
+auto eth2
+iface eth2 inet static
+    address 192.244.10.129
+    netmask 255.255.255.252
 
 ```
 
 ### FBK_Matsuri (Client)
 ```jsx
+#A20
+auto eth0
+iface eth0 inet static
+    address 192.244.8.2
+    netmask 255.255.254.0
+    gateway 192.244.8.1
 
 ```
 
 ### Aki_Hachama (Client)
 ```jsx
+#A20
+auto eth0
+iface eth0 inet static
+    address 192.244.8.3
+    netmask 255.255.248.0
+    gateway 192.244.8.1
 
 ```
 
 ### Gamers (Gateway)
 ```jsx
+#A21
+auto eth0
+iface eth0 inet static
+    address 192.244.10.130
+    netmask 255.255.255.252
+    gateway 192.244.10.129
+
+#A22
+auto eth1
+iface eth1 inet static
+    address 192.244.10.1
+    netmask 255.255.255.128
 
 ```
 
 ### Korone (Client)
 ```jsx
+#A22
+auto eth0
+iface eth0 inet static
+    address 192.244.10.2
+    netmask 255.255.255.128
+    gateway 192.244.10.1
 
 ```
 
 ### Okayu (Client)
 ```jsx
+#A22
+auto eth0
+iface eth0 inet static
+    address 192.244.10.3
+    netmask 255.255.255.128
+    gateway 192.244.10.1
 
 ```
 
 ### Mio (Client)
 ```jsx
-
+#A22
+auto eth0
+iface eth0 inet static
+    address 192.244.10.4
+    netmask 255.255.255.128
+    gateway 192.244.10.1
 
 ```
+
 </details>
 
 ## CPT-VLSM
