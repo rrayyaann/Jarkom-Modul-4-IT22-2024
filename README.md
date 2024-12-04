@@ -4,13 +4,13 @@
 | Nama | NRP |
 |---------------------------|------------|
 |Muhamad Arrayyan | 5027231014 |
-|Fadlillah Cantika Sari Hermawan | 5027231042 |
+|Fadlillah Cantika Sari Hermawan ❌| 5027231042 |
 
 
 |  PIC | Aplikasi | Metode |
 |--------|----------|----------|
 |  Muhamad Arrayyan  | GNS3 | CIDR |
-|  Fadlillah Cantika Sari Hermawan |  CPT | VLSM |
+|  Fadlillah Cantika Sari Hermawan ❌|  CPT | VLSM |
 
 ## Prefix IP 
 Kelompok kami memiliki prefix IP `192.244`
